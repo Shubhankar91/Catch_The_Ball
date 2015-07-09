@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" 
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:id="@+id/instructions_view" >
+
+<TextView
+    android:id="@+id/TextView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Just Tap the ball to score points. The faster u are, the more points u will score!"
+    android:textSize="20dip"
+    android:typeface="sans" >
+    
+</TextView>
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1.Classic mode: Compete in three levels Easy Medium and Tough! Tap the GREEN ball for more points! Beware of the BLACK ball!"
+    android:textSize="20dip"
+    android:typeface="sans" >
+    
+</TextView>
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2.TopsyTurvy Mode: Blue and Green balls switch values after 10seconds... Background of score bar indicates the positive ball! Are you ready?"
+    android:textSize="20dip"
+    android:typeface="sans" >
+    
+</TextView>
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="3.Arcade: Try your luck against 3 or 4 balls of varying sizes,speeds,colours and points(Yes there are penalty balls too!!) GREEN and BLUE(bonus!!) fetches positive points..! RED and BLACK fetch negative points(RED even more so!)
+    "
+    android:textSize="20dip"
+    android:typeface="sans" >
+    
+</TextView>
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This Game was developed by: Shubhankar and Paritosh Ramanan 
+    "
+    android:textSize="20dip"
+    android:typeface="sans" >
+    
+</TextView>
+
+</LinearLayout>
+</ScrollView>

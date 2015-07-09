@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.ball"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+     <uses-permission android:name="android.permission.INTERNET" />
+    <application android:icon="@drawable/capture" android:label="@string/app_name">
+        
+        <activity android:name=".NewGame"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+	<activity android:name = ".Movement"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".NewGame2"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".splash"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".splash2"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".splash3"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".MovementMedium"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".MovementHard"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".time_up"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".PostOnFb"
+			  android:screenOrientation="landscape">alert.show();</activity>
+	<activity android:name = ".TopsyTurvy"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".MovementFourBall"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".MovementThreeBall"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".MovementViewFourBall"
+			  android:screenOrientation="landscape"></activity>
+	<activity android:name = ".MovementViewThreeBall"
+			  android:screenOrientation="landscape"></activity>
+		<activity android:name = ".splashfourball"
+			  android:screenOrientation="landscape"></activity>
+			<activity android:name = ".splashthreeball"
+			  android:screenOrientation="landscape"></activity>
+			<activity android:name = ".splashtopsyturvy"
+			  android:screenOrientation="landscape"></activity>
+    </application>
+    <uses-sdk android:minSdkVersion="9" />
+
+</manifest> 
